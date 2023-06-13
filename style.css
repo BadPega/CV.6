@@ -1,0 +1,90 @@
+/* Styles for the grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  }
+  
+  /* Styles for h1 heading */
+  h1 {
+  color: red;
+  font-size: larger;
+  }
+  
+  /* Styles for h2 heading */
+  h2 {
+  color: rgb(43, 55, 226);
+  font-size: large;
+  }
+  
+  /* Styles for the body */
+  body {
+  background-color: rgb(66, 235, 241);
+  }
+  
+  /* Styles for images */
+  img {
+  width: 300px;
+  height: 600px;
+  }
+  
+  /* Styles for .myDiv class */
+  .myDiv {
+  background-color: lightblue;
+  }
+  
+  /* Styles for span with class 'num' */
+  span.num {
+  color: green;
+  }
+  
+  /* Styles for span inside h2 */
+  h2 span {
+  color: green;
+  }
+  
+  /* Styles for elements with class 'name' */
+  .name {
+  border-bottom: 1px solid black;
+  }
+  
+  /* Styles for the navigation bar */
+  nav {
+  background-color: #333;
+  overflow: hidden;
+  }
+  
+  /* Styles for unordered list inside the navigation bar */
+  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  /* Styles for list items inside the navigation bar */
+  nav li {
+  float: left;
+  }
+  
+  /* Styles for links inside list items in the navigation bar */
+  nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  /* Styles for links on hover in the navigation bar */
+  nav li a:hover {
+  background-color: #111;
+  }
+  
+  /* Styles for the footer */
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+  }
